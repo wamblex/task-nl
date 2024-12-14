@@ -30,7 +30,7 @@ This repository contains the implementation of a case study component built usin
 2. Install dependencies:
    Make sure you have Tailwind CSS set up in your project. This example assumes you have already configured Tailwind.
 
-3. Open index.html in your browser to view the component.
+3. Open index.html in your browser to view the case.
 
 ## File Structure
 
