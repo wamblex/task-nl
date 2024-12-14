@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Thin.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Light.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-SemiBold.otf') format('opentype');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Bold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NonBureau';
+  src: url('./fonts/NonBureau-Black.otf') format('opentype');
+  font-weight: 900; /* Black */
+  font-style: normal;
+}

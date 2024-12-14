@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-class {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  background-color: #4763ff; /* Corrected color code */
+  -webkit-appearance: none; /* For WebKit browsers */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none; /* Standard property */
+  display: block;
+}

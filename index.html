@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar UI</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white font-nonBureau tracking-wider">
+    <!-- Sidebar -->
+    <div class="flex">
+      <!-- Sidebar Container -->
+      <aside
+        class="w-auto h-screen bg-[#F0F0F0] flex flex-col border-r border-[#D5D5D5]"
+      >
+        <!-- Navigation Links -->
+        <nav class="flex-1 p-8 space-y-6">
+          <div>
+            <img
+              src="InGenius Icon.svg"
+              alt="InGenius Logo"
+              width="28"
+              height="28"
+            />
+          </div>
+          <div class="space-y-2 w-44">
+            <a
+              href="#"
+              class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+            >
+              <img src="./icons/layout-grid-01.svg" width="16" height="16" />
+              Reports
+            </a>
+            <a
+              href="#"
+              class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+            >
+              <img src="./icons/route.svg" width="16" height="16" />
+              Programs
+            </a>
+            <a
+              href="#"
+              class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+            >
+              <img src="./icons/clapperboard.svg" width="16" height="16" />
+              Course Studio
+            </a>
+            <a
+              href="#"
+              class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+            >
+              <img src="./icons/users-02.svg" width="16" height="16" />
+              Users
+            </a>
+          </div>
+        </nav>
+
+        <!-- Bottom Section -->
+        <div class="pr-8 pl-8 pb-0 space-y-2">
+          <a href="#" class="flex items-center text-[#D69D0B] gap-2 text-base">
+            <img src="./icons/lightning-01.svg" width="16" height="16" />
+            Upgrade
+          </a>
+          <a
+            href="#"
+            class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+          >
+            <img src="./icons/link-01.svg" width="16" height="16" />
+            Api
+          </a>
+          <a
+            href="#"
+            class="flex items-center text-black opacity-40 hover:opacity-100 gap-2 text-base"
+          >
+            <img src="./icons/help-circle.svg" width="16" height="16" />
+            Help
+          </a>
+        </div>
+        <hr class="h-0 bg-[#D5D5D5] my-4 mx-8 border-t border-[#D5D5D5]" />
+        <div
+          class="pt-0 pb-8 pl-8 pr-8 space-y-2 flex items-center row-auto align-middle justify-between"
+        >
+          <a
+            href="#"
+            class="flex items-center text-[#000] opacity-40 hover:opacity-100 gap-2 text-base"
+          >
+            <img src="./icons/user-03.svg" width="16" height="16" />
+            Account
+          </a>
+          <div
+            class="rounded-lg pr-1 pl-1 pt-0.5 pb-0.5 flex items-center align-middle row-auto gap-0.5 bg-[#E6E6E6]"
+            style="margin-top: 0"
+          >
+            <img
+              src="./icons/coins-01.svg"
+              width="16"
+              height="16"
+              style="opacity: 0.6"
+            />
+            <a class="opacity-60">0</a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Content Placeholder -->
+      <main class="flex p-0 flex-col justify-between w-full">
+        <div>
+          <div
+            class="p-4 gap-6 flex w-auto justify-between items-center row-auto"
+          >
+            <div class="w-1/3 flex items-center gap-4 row-auto align-middle">
+              <a
+                class="p-1 w-8 h-8 border border-[#D5D5D5] rounded-xl items-center justify-center flex"
+              >
+                <img
+                  src="./icons/home-02.svg"
+                  width="16"
+                  height="16"
+                  style="opacity: 1"
+                />
+              </a>
+              New Course
+            </div>
+            <div
+              class="w-1/3 flex items-center justify-center gap-2 flex-col text-sm"
+            >
+              <div class="flex items-center gap-1 row-auto justify-center">
+                <hr class="w-9 rounded-xl border border-[#4763FF]" />
+                <hr class="w-9 rounded-xl border border-[#D5D5D5]" />
+                <hr class="w-9 rounded-xl border border-[#D5D5D5]" />
+                <hr class="w-9 rounded-xl border border-[#D5D5D5]" />
+                <hr class="w-9 rounded-xl border border-[#D5D5D5]" />
+              </div>
+              <a>Set Up</a>
+            </div>
+            <div class="w-1/3"></div>
+          </div>
+          <div
+            class="pt-20 pb-20 pr-10 pl-10 flex items-center justify-between flex-col"
+          >
+            <div class="flex w-[656px] flex-col items-start gap-16">
+              <div class="flex flex-col items-end gap-12 self-stretch">
+                <div class="flex flex-col w-[656px] items-start gap-4">
+                  <div class="flex flex-col w-[544px] items-start gap-4">
+                    <div class="flex flex-row items-center self-stretch gap-2">
+                      <img
+                        src="InGenius Icon.svg"
+                        alt="InGenius Logo"
+                        width="28"
+                        height="28"
+                      />
+                      What is the course subject?
+                    </div>
+                    <p class="text-[#000] opacity-60 text-base font-light">
+                      What are you looking to teach? You can be very detailed if
+                      you know exactly what you’re looking for or be vague and
+                      we will fine tune it later.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex w-[656px] flex-col items-end gap-16">
+                  <div class="flex flex-col w-[544px] items-end gap-4">
+                    <div
+                      class="flex p-3 flex-col justify-center items-end gap-2 bg-[#F0F0F0] rounded-xl"
+                    >
+                      <a>Diversity in the workplace</a>
+                      <div class="flex items-center gap-[6px]">
+                        <img src="./icons/edit-01.svg" width="14" height="14" />
+                        <a class="text-sm" href="#">Edit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col w-auto pt-0 pb-10 pr-6 pl-6 items-center gap-10"
+        >
+          <div
+            class="flex w-[688px] pt-3 pb-3 pl-4 pr-4 justify-between border rounded-[100px] bg-white border-[#d5d5d5]"
+          >
+            <input
+              type="text"
+              placeholder="Type your message..."
+              class="w-full bg-transparent outline-none"
+            />
+            <img src="./icons/send-01.svg" width="20" height="20" />
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
