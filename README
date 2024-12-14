@@ -1,0 +1,77 @@
+# Task_NL - Component Documentation
+
+This repository contains the implementation of a case study component built using **HTML** and **Tailwind CSS**. The task is part of a documentation request by Ingenius, providing a clean and functional layout for side navigation with design principles.
+
+## Demo
+
+![Preview](./icons/preview.png)
+
+---
+
+## Features
+
+- **Responsive Sidebar**: Fully responsive layout with a collapsible sidebar.
+- **Customizable Navigation Links**: Easy to update navigation items and icons.
+- **Semantic HTML**: Ensures accessibility and search engine optimization.
+- **Tailwind Integration**: Utilizes Tailwind CSS for rapid styling and utility-based classes.
+- **Clean Design**: Minimalist design with hover effects and clear hierarchy.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/wamblex/task-nl.git
+   cd task-nl
+   ```
+
+2. Install dependencies:
+   Make sure you have Tailwind CSS set up in your project. This example assumes you have already configured Tailwind.
+
+3. Open index.html in your browser to view the component.
+
+## File Structure
+
+```bash
+├── index.html # Main HTML file for the component
+├── fonts.css # Font styles used in the design
+├── output.css # Compiled Tailwind CSS file
+├── icons/ # Directory containing icons used in the UI
+├── InGenius Icon.svg # Company logo
+└── README.md # Project documentation
+```
+
+Usage
+
+## HTML Structure
+
+The sidebar component is structured within an <aside> tag and contains navigation links grouped into sections:
+
+```bash
+<aside class="...">
+  <nav>
+    <a href="#">Reports</a>
+    <a href="#">Programs</a>
+    <!-- More links -->
+  </nav>
+</aside>
+```
+
+## Tailwind Utilities
+
+This component uses the following Tailwind utilities:
+
+    •	Flexbox for layout management
+    •	Spacing utilities for padding and margins
+    •	Colors and Opacity for hover effects and styling
+    •	Border utilities for rounded corners and separators
+
+## Customization
+
+    1.	Update icons in the ./icons/ directory.
+    2.	Modify text labels or links in the index.html file.
+    3.	Update Tailwind configurations as needed in your tailwind.config.js.
+
+Feel free to fork the repository and submit a pull request.
